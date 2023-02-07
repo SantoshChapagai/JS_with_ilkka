@@ -1,6 +1,6 @@
 'use strict'
 
-
+//  cretaing objects
 const SPADES={
     suiteNmae:'spades',
     suiteSymbol:'\u2660',

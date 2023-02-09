@@ -1,5 +1,7 @@
 'use strict';
 
+// function switch
+
 const [,, suite='?']=process.argv;
 let suiteSymbol='?';
 const suiteLowered=suite.toLowerCase();

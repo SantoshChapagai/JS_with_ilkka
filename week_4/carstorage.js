@@ -32,5 +32,14 @@ function getAllModels(){
     }
     return models;
 }
+function getCars(key, value){
+    const found=[];
+    for(const car of cars){
+        if(car[key]===value){
+            found.push(car);
+        }
+    }
+    return found;
+}
 
-module.exports={ getWithLicence, getWithModel }
+module.exports={ getWithLicence, getWithModel, getAllModels, getCars }
